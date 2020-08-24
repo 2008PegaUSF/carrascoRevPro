@@ -1,0 +1,20 @@
+package bankingApp;
+
+public class Bankadmin implements Transactions{
+
+	public void transfer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deposit(int moneyM) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void withdraw(int moneyP) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

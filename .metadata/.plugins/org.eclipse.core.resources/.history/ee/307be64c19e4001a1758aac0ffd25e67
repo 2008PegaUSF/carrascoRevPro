@@ -1,0 +1,67 @@
+package bankingApp;
+
+import java.util.Scanner;
+
+public class Driver {
+	
+	public static void main(String[] args) {
+		
+	Scanner s = new Scanner(System.in);
+	
+	
+	System.out.println("Login as:" + "\n" + "a) Customer" + "\n"
+						+ "b) Employee"+"\n" + "c) Bank Admin" + "\n" 
+						);//seed												
+	String p = s.nextLine(); //stems out
+	
+		if (p.equals("Customer"))  {//branch 1
+			System.out.println("What would you like to do?"+"\n"
+					+"a)Register"+ "\n"
+					+ "b)Login to account" );
+			String c1 = s.nextLine();
+				
+				String uname;
+				String pword;
+				if( c1.equals("Register")) {//branch 1a
+					System.out.println("Create New Username:");
+					uname = s.nextLine();
+					System.out.println("Create Password:");
+					pword = s.nextLine();
+					}	
+				
+				
+				else if(c1.equals("Login")) {//branch 1b
+					
+					System.out.println("Would you like to:" +"\n"+ "a) Apply for an account " + "\n"
+										+ "b) Make a transaction");
+					String c2 = s.nextLine();
+					
+						if( c2.equals("a")) { 
+							System.out.println("Type:" + "\n" + "a) Joint Account" + "\n" + "b) Account");
+							String c3 = s.nextLine();
+							
+							if (c3.equals("a")) {
+								//call apply4joint method
+								System.out.println("Application for Joint Account sent");
+							}
+							else if (c3.equals("b")) {
+								//call apply method
+								System.out.println("Application for Account sent");
+						}	
+						}
+				}
+				
+			
+			
+		} else if(p == "employee") {//branch 2
+
+		} else if(p == "bank admin") {//branch 3
+
+		} else {
+			
+		}
+	
+	
+	
+	}
+}

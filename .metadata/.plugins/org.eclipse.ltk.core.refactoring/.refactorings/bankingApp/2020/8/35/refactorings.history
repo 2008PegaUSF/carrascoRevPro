@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;CustomerData.txt&apos; to &apos;bankingApp&apos;" description="Move &apos;CustomerData.txt&apos; to &apos;bankingApp&apos;" destination="/bankingApp" element1="src/main/java/bankingApp/CustomerData.txt" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1598243366797" updateReferences="true"/>
+</session>

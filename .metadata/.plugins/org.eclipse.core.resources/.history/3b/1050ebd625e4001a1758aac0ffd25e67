@@ -1,0 +1,33 @@
+package bankingApp;
+
+public class Customer implements Transactions{
+	String uname;
+	String pw;
+	int funds;
+	boolean app;
+	
+	public void register(String uname, String pw) {
+		uname = this.uname;
+		pw = this.pw;
+
+		}
+	public void application() {
+		
+	}
+
+	public void deposit(int moneyP) {
+		funds = funds + moneyP;
+		
+	}
+
+	public void withdraw(int moneyM) {
+		funds = funds + moneyM;
+		
+	}
+
+	public void transfer() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

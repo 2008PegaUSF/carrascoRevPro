@@ -1,0 +1,11 @@
+package questions;
+
+public class Q3 {
+	//Reverse a string 
+		static void reversingString (String s, int length) {
+			
+			for (int i = s.length(); i>0; --i) {
+				System.out.print(s.charAt(i - 1));
+			}System.out.println();
+		}
+}

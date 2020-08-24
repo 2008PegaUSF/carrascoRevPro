@@ -1,0 +1,44 @@
+package questions;
+
+import java.util.ArrayList;
+
+public class Q19 {
+	public static void listMov() {
+	
+	ArrayList<Integer> arrInt = new ArrayList<Integer>();
+	for (int x = 1; x<=10; x++){
+		arrInt.add(x);
+		}
+	System.out.println(arrInt);
+	int c = 0;
+	for (int x = 0; x<10; x++) {
+		int a = arrInt.get(x);
+		if (a%2 == 0) {
+			c= a + c;
+		}
+	}
+	System.out.println(c);
+	int s = 0;
+	for (int p = 0; p<10; p++) {
+		int l = arrInt.get(p);
+		if (l%2 != 0) {
+			s= l + s;
+	}
+	}
+	System.out.println(s);
+	
+	for (int q =1; q<=10; q++) {
+		int w = arrInt.get(Integer.valueOf(q));
+		if (w == 1) {
+			arrInt.remove(Integer.valueOf(w));
+		} else {
+			for (int r = 1; r<w; r++) {
+				if (w%r==0) {
+				arrInt.remove(Integer.valueOf(w));
+			}
+		}
+		
+	}
+}System.out.println(arrInt);
+}
+}	

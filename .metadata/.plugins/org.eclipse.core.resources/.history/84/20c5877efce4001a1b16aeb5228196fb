@@ -1,0 +1,78 @@
+package questions;
+
+import java.io.FileNotFoundException;
+
+public class Driver {
+	public static void main(String[] args) {
+		
+		//Test Q1 BubbleSort
+		int list[] = {1,0,5,6,3,2,3,7,9,8,4} ;
+		Q1 bs = new Q1();
+		bs.bubbleSort(list);
+		bs.printArray(list);
+		System.out.println("\n");
+		
+		//Print Q2 Fibonacci Numbers
+		System.out.println(" " + 0);
+		System.out.println(" " + 1);
+		Q2.printFibonacci(25 - 1);
+		System.out.println("\n");
+		
+		//Test Q3 reverse a string
+		String s = "star";
+		Q3.reversingString(s, 3);
+		System.out.println("\n");
+		
+		//Test Q4 Factorial
+		Q4.factorial(5);
+		System.out.println("\n");
+		
+		//Test Q5 Substring
+		Q5.substring( "Successful", 7);
+		System.out.println("\n");
+		//Test Q6 Even check method
+		Q6.even(39);
+		System.out.println("\n");
+		//Q8Palin program
+		Q8.strRev();
+		System.out.println("\n");  
+		//Q9array prime 1- 100
+		Q9.arraySorted();
+		
+		
+		//Test Q10
+		Q10.min(16, 14);
+		
+		//Test Q11
+		Q11.getF();
+		
+		//Test Q12
+		Q12.q12();
+		
+		//test Q13
+		Q13.tri01();
+		
+		//Test q14
+		Q14.swi(1);
+		System.out.println("\n");
+		//Q16
+		Q16.strCharCount("I will succeed ");
+		
+		//Q17
+		//Q17.total();
+		
+		//Q18 
+		Q18sub z = new Q18sub(); 
+		z.capCheck("thiS");
+		z.str2IntplusTen(10);
+		System.out.println("\n");
+		
+		//Q20
+		try {
+			Q20.scan("Data.text");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+	}
+}

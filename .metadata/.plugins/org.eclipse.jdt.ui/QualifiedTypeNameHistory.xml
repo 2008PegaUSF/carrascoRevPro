@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.nio.file.Path"/>
+    <fullyQualifiedTypeName name="java.nio.file.Files"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+    <fullyQualifiedTypeName name="java.util.Deque"/>
+    <fullyQualifiedTypeName name="Q11otherP.Oclass"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.oops.java_lang_Class"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="questions.Q1"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="questions.Q4"/>
+    <fullyQualifiedTypeName name="questions.Q5"/>
+    <fullyQualifiedTypeName name="questions.Q10"/>
+    <fullyQualifiedTypeName name="questions.Q11"/>
+    <fullyQualifiedTypeName name="Q15.Q15"/>
+    <fullyQualifiedTypeName name="Q7.Employee"/>
+    <fullyQualifiedTypeName name="questions.Q14"/>
+    <fullyQualifiedTypeName name="questions.Q16"/>
+    <fullyQualifiedTypeName name="questions.Q8"/>
+    <fullyQualifiedTypeName name="questions.Q9"/>
+    <fullyQualifiedTypeName name="questions.Q12"/>
+    <fullyQualifiedTypeName name="questions.Q13"/>
+    <fullyQualifiedTypeName name="questions.Q17"/>
+    <fullyQualifiedTypeName name="questions.Q18sub"/>
+    <fullyQualifiedTypeName name="questions.Q19"/>
+    <fullyQualifiedTypeName name="questions.Q20"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+</qualifiedTypeNameHistroy>

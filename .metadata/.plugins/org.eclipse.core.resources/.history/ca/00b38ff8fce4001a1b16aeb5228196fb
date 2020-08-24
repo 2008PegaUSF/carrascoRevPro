@@ -1,0 +1,9 @@
+package questions;
+
+public abstract class Q18super {
+	abstract void capCheck(String Str);
+	abstract String lower2Upper(String Str);
+	abstract void str2IntplusTen(String x);
+	
+	
+}

@@ -1,0 +1,21 @@
+package bankingApp;
+
+public class Customer{
+	String uname;
+	String pw;
+	int funds;
+	boolean app;
+	String fname;
+	String lname;
+	
+	public void register(String uname, String pw) {
+		uname = this.uname;
+		pw = this.pw;
+	}
+
+	public void nam(String fname, String lname) {
+		fname = this.fname;
+		lname = this.lname;
+	}
+	
+}

@@ -1,0 +1,13 @@
+package questions;
+
+public class Q6 {
+	static void even(int num){
+		int x = num/2;
+		int ans = x*2;
+		if (num == ans) {
+			System.out.println("The number is Even");
+		}else {
+			System.out.println("The number is not even");
+		}
+	}
+}
